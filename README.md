@@ -9,4 +9,4 @@ My enhancement/changes:
 * some not major changes is main backend Python engine
 * turn backend to systemd service (to be described later)
 
-**This README is incomplete! Will be updated continuously. Please, stay tuned.**
+**This README is incomplete! Will be updated continuously.**
