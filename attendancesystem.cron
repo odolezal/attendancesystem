@@ -1,0 +1,2 @@
+# Raspberry Pi RFID Attendance System (restart service every hour)
+0 * * * * root systemctl restart attendancesystem.service
