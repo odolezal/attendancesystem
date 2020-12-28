@@ -1,0 +1,12 @@
+# HTTP Basic Auth - use Base64 coding (without SSL very very insecure!)
+#AuthType Basic
+#AuthName "Raspberry Pi RFID Attendance System"
+#AuthUserFile /var/www/html/attendance/.htpasswd
+#Require valid-user
+
+# HTTP Digest Authentication - use MD5 and Nonce
+AuthType Digest
+AuthName "Raspberry Pi RFID Attendance System"
+#AuthDigestFile cause 500 Internal error - dont use it!
+AuthUserFile /var/www/html/attendance/.digest
+Require valid-user
