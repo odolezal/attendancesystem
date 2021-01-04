@@ -12,7 +12,7 @@ You can find original project page here: https://pimylifeup.com/raspberry-pi-rfi
 * change local MySQL (MariaDB) server to remote (needs allow remote connection https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/)
 * added HTTP Digest Authorization for Web frontend
 * added "maintenance" script
-* some not major changes is main backend Python engine
+* some minor changes is main backend Python engine
 * turn backend to [systemd service](attendancesystem.service)
 * [cron entry](attendancesystem.cron) in ```/etc/cron.d/``` preventing backend service to freeze
 
