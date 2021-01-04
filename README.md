@@ -5,7 +5,7 @@ This project is based on **"Raspberry Pi RFID Attendance System" by [Pi My Life 
 You can find original project page here: https://pimylifeup.com/raspberry-pi-rfid-attendance-system/. **I recommend read this tutorial first.**
 
 ## Localisation
-1. Move ```frontend``` folder to ```/var/www/html/attendance/```
+1. Move ```frontend``` folder to ```/var/www/html/attendancesystem```
 2. Move ```backend``` folder to ```/home/pi/attendance/```
 
 ## Changes:
